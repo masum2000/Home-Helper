@@ -52,7 +52,7 @@ const Modal = ({ isOpen, setIsOpen }) => {
                 <div className='mt-4 flex gap-3 justify-between'>
                   <button
                     type='button'
-                    className='inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2'
+                    className='inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-green-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2'
                     onClick={() => {
                       closeModal()
                       setTimeout(() => navigate('/cart'), 500)
